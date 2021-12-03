@@ -1,0 +1,2 @@
+class BookDAO:
+    pass
