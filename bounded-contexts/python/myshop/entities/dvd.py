@@ -4,8 +4,12 @@ from myshop.entities.has_weight import HasWeight
 
 
 class Dvd(Item, HasWeight):
+    def __init__(self, *, id: ItemId, title: str) -> None:
+        self._id = id
+        self.title = title
+
     def item_id(self) -> ItemId:
-        return ItemId("dvd-42")
+        return self._id
 
     def weight(self) -> float:
-        return 0.0
+        return 0.016

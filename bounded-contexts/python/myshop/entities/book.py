@@ -3,8 +3,13 @@ from myshop.entities.item_id import ItemId
 
 
 class Book(Item):
+    def __init__(self, *, id: ItemId, title: str, weight: float):
+        self._id = id
+        self._weight = weight
+        self.title = title
+
     def item_id(self) -> ItemId:
-        return ItemId("42")
+        return self._id
 
     def weight(self) -> float:
-        return 0.0
+        return self._weight
