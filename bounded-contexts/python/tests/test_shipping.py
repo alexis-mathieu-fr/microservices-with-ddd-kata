@@ -1,5 +1,5 @@
-from myshop.services.shipping import ShippingService
-from myshop.services.catalog import CatalogService
+from myshop.services.shipping.service import ShippingService
+from myshop.services.catalog.service import CatalogService
 from myshop.services.shoppingcart.cart import Cart, CartItem
 from myshop.entities.quantity import Quantity
 from myshop.entities.item_id import ItemId
