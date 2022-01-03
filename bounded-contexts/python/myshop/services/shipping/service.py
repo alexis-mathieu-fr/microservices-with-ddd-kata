@@ -1,4 +1,4 @@
-from myshop.services.catalog import CatalogService
+from myshop.services.catalog.service import CatalogService
 from myshop.services.shoppingcart.cart import Cart
 
 
