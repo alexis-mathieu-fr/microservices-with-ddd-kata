@@ -1,7 +1,7 @@
 package p1.myshop.services.shipping;
 
 import p1.myshop.services.catalog.CatalogService;
-import p1.myshop.services.shoppingcart.Cart;
+import p1.myshop.entities.Cart;
 
 public class DeliveryService {
     private final CatalogService catalogService;
