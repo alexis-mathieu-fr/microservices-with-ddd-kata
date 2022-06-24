@@ -2,13 +2,13 @@ package p1.myshop.entities;
 
 public class Quantity {
 
-    int value;
+    int quantity;
 
-    Quantity(int value) {
-        this.value = value;
+    Quantity(int quantity) {
+        this.quantity = quantity;
     }
 
-    public int toInt() {
-        return value;
+    public int quantity() {
+        return quantity;
     }
 }
