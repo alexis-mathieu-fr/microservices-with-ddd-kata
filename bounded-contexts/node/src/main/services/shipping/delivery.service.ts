@@ -1,11 +1,10 @@
 import { Cart } from '../../entities/cart'
 import { CatalogService } from '../catalog/catalog.service'
-import { Inject } from '@nestjs/common'
 
 export class DeliveryService {
   readonly #catalogService: CatalogService
 
-  constructor(@Inject(CatalogService) catalogService: CatalogService) {
+  constructor(catalogService: CatalogService) {
     this.#catalogService = catalogService
   }
 
