@@ -14,7 +14,7 @@ namespace Services::Shipping
 
         const Catalog::Service &getService() { return catalogService; }
 
-        double calculateOrderWeight(ShoppingCart::Cart cart)
+        double calculateOrderWeight(ShoppingCart::Cart& cart)
         {
             int orderWeight = 0;
 

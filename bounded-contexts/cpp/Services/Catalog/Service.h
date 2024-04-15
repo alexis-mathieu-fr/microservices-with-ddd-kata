@@ -8,7 +8,7 @@ namespace Services::Catalog
     {
         public:
         
-        Entities::IItem loadItem(Entities::ItemId ItemId)
+        Entities::IItem loadItem(Entities::ItemId& ItemId)
         {
             return Entities::IItem();
         }
