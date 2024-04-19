@@ -1,7 +1,7 @@
 import { Quantity } from './quantity'
 import { ItemId } from './item-id'
 
-export class CartItem {
+export class CartLine {
   readonly #itemId: ItemId
   readonly #quantity: Quantity
 

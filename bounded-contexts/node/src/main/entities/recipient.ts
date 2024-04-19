@@ -4,4 +4,8 @@ export class Recipient {
   constructor(name: string) {
     this.#name = name
   }
+
+  get name() {
+    return this.#name
+  }
 }
